@@ -196,7 +196,7 @@ int main(void)
         system("cls");
         puts("ops! no player wins!");
         //display
-        for(int k = 3;k>=0;k--){
+        for(int k = 3;k>=0;k--){//
             printf("\t\t");
             for(int k1 = 0;k1<4;k1++){
                 printf("%c  ",panel[k][k1]);
